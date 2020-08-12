@@ -1,5 +1,4 @@
 /* Universal Styles */
-
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -7,7 +6,8 @@ html {
 
 .main-content {
   position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
+  top: 5.3125rem;
+  /* To offset for fixed header. */
 }
 
 .center {
@@ -35,7 +35,6 @@ html {
 }
 
 /* Header */
-
 header {
   position: fixed;
   width: 100%;
@@ -111,7 +110,6 @@ header .mobile {
 }
 
 /* Sign Up Section */
-
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
@@ -208,7 +206,6 @@ header .mobile {
 }
 
 /* Features Section */
-
 #features-section {
   display: flex;
   justify-content: space-between;
@@ -269,7 +266,6 @@ header .mobile {
 }
 
 /* Filters Section */
-
 #filters-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
@@ -329,7 +325,6 @@ header .mobile {
 }
 
 /* Quotes Section */
-
 #quotes-section {
   background-color: #f3f3f3;
 }
@@ -369,7 +364,6 @@ header .mobile {
 }
 
 /* Footer */
-
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
