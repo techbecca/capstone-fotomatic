@@ -40,6 +40,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  height: 5.3125rem;
 }
 
 header .content {
