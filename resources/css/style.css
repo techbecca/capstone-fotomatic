@@ -1,5 +1,4 @@
 /* Universal Styles */
-
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -7,7 +6,8 @@ html {
 
 .main-content {
   position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
+  top: 5.3125rem;
+  /* To offset for fixed header. */
 }
 
 .center {
@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -35,12 +36,12 @@ html {
 }
 
 /* Header */
-
 header {
   position: fixed;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  height: 5.3125rem;
 }
 
 header .content {
@@ -51,6 +52,8 @@ header .content {
 
 header .logo {
   flex: 1;
+  font-family: 'Nanum Gothic Coding', monospace;
+  letter-spacing: 1.5px;
 }
 
 header nav ul {
@@ -111,16 +114,21 @@ header .mobile {
 }
 
 /* Sign Up Section */
-
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 43.5rem;
+  height: fit-content;
+  background-image: url("../images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #cccccc;
+  padding: 10.625rem 6.25rem;
 }
 
 #sign-up-cta {
-  padding: 0 5rem 2.5rem 5rem;
+  padding: 0 5rem 3.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
@@ -208,7 +216,6 @@ header .mobile {
 }
 
 /* Features Section */
-
 #features-section {
   display: flex;
   justify-content: space-between;
@@ -219,14 +226,22 @@ header .mobile {
 .feature {
   flex: 1;
   padding: 2rem;
-  margin: 0px 1.25rem;
+  margin: 0px 1.1875rem;
   background-color: white;
+  height: 39.6875rem;
+  box-sizing: border-box;
 }
 
 .feature .image-container {
   width: 90%;
   height: 65%;
   margin: 0 auto;
+}
+
+.feature .content {
+  box-sizing: border-box;
+  height: 9.6875rem;
+  padding-top: 3rem;
 }
 
 .feature h2 {
@@ -269,7 +284,6 @@ header .mobile {
 }
 
 /* Filters Section */
-
 #filters-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
@@ -296,6 +310,10 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
 }
 
 @media only screen and (max-width: 760px) {
@@ -329,16 +347,15 @@ header .mobile {
 }
 
 /* Quotes Section */
-
 #quotes-section {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -369,10 +386,9 @@ header .mobile {
 }
 
 /* Footer */
-
 footer {
   background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
+  padding: 1.5625rem 2rem;
 }
 
 footer .content {
@@ -385,7 +401,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
