@@ -52,6 +52,8 @@ header .content {
 
 header .logo {
   flex: 1;
+  font-family: 'Nanum Gothic Coding', monospace;
+  letter-spacing: 1.5px;
 }
 
 header nav ul {
