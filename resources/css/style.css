@@ -208,6 +208,7 @@ header .has-icon {
     height: auto;
     background-color: transparent;
     border: none;
+    padding: 0;
   }
 
   #sign-up-cta .content {
@@ -284,13 +285,19 @@ header .has-icon {
   color: #4a4a4a;
 }
 
-/* Adjusts feature font sizes */
-@media only screen and (max-width: 890px) {
+/* Medium devices (tablets, less than 992px) */
+@media only screen and (max-width: 992px) {
   #features-section {
     padding: 1rem 0;
   }
 
-  .feature .content {}
+  .feature .content {
+    text-align: left;
+  }
+}
+
+/* Adjusts feature font sizes */
+@media only screen and (max-width: 890px) {
 
   .feature h2 {
     font-size: 1.125rem;
@@ -314,6 +321,14 @@ header .has-icon {
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .feature .content {
+    text-align: center;
+  }
+
+  #first-feature {
+    background-color: #f3f3f3;
   }
 }
 
