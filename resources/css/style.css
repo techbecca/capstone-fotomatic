@@ -169,6 +169,7 @@ header .mobile {
   padding: 1.25rem 7.25rem;
 }
 
+/* Small screen sizes, mobile */
 @media only screen and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
@@ -201,6 +202,7 @@ header .mobile {
   }
 }
 
+/*  Small screen sizes, portrait mobile */
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
@@ -259,6 +261,7 @@ header .mobile {
   color: #4a4a4a;
 }
 
+/* Adjusts feature font sizes */
 @media only screen and (max-width: 890px) {
   #features-section {
     padding: 1rem 0;
@@ -278,6 +281,7 @@ header .mobile {
   }
 }
 
+/* Small screen sizes, mobile */
 @media only screen and (max-width: 760px) {
   #features-section {
     flex-flow: column;
