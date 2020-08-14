@@ -105,7 +105,7 @@ header .has-icon {
 
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 992px) {
   header .desktop {
     display: none;
   }
