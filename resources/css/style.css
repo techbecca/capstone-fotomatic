@@ -194,7 +194,7 @@ header .has-icon {
   padding: 1.25rem 7.25rem;
 }
 
-/* Small screen sizes, mobile */
+/* Medium devices (tablets, less than 992px) */
 @media only screen and (max-width: 992px) {
   #sign-up-section {
     align-items: center;
