@@ -84,6 +84,12 @@ header .tablet {
   display: none;
 }
 
+header .has-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Medium devices (tablets, less than 992px) */
 @media only screen and (max-width: 992px) {
   header .tablet {
