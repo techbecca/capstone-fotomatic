@@ -265,8 +265,6 @@ header .has-icon {
 }
 
 .feature .content {
-  /* box-sizing: border-box; */
-  /* min-height: 9.6875rem; */
   padding: 2.5rem 0;
   margin: 0 auto;
   width: 85%;
