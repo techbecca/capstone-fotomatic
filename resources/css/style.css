@@ -195,7 +195,7 @@ header .has-icon {
 }
 
 /* Small screen sizes, mobile */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 992px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
