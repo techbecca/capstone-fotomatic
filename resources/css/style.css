@@ -90,7 +90,7 @@ header .tablet {
     display: block;
   }
 
-  header .tablet.button {
+  header .tablet .button {
     padding: .1875rem .5rem;
     background-color: #9dc20b;
     line-height: 1.6;
