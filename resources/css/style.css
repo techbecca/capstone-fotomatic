@@ -103,6 +103,10 @@ header .has-icon {
     color: white;
   }
 
+  nav li {
+    padding-left: 2.5rem;
+  }
+
 }
 
 @media only screen and (max-width: 760px) {
