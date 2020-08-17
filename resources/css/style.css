@@ -295,7 +295,6 @@ header .has-icon {
   color: #4a4a4a;
 }
 
-/* Medium devices (tablets, less than 992px) */
 @media only screen and (max-width: 992px) {
   #features-section {
     padding: 1rem 0;
@@ -311,7 +310,6 @@ header .has-icon {
   }
 }
 
-/* Small screen sizes, mobile */
 @media only screen and (max-width: 760px) {
   #features-section {
     flex-flow: column;
