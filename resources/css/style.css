@@ -121,6 +121,8 @@ header .has-icon {
 
   header .content {
     padding: .5rem 0;
+    height: 2.5625rem;
+    box-sizing: border-box;
   }
 
   header .mobile ul {
