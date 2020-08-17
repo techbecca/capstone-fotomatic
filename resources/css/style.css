@@ -204,6 +204,7 @@ header .has-icon {
     align-items: center;
     justify-content: center;
     height: 28rem;
+    padding: 0;
   }
 
   #sign-up-cta {
