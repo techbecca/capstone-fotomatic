@@ -250,6 +250,19 @@ header .has-icon {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  #sign-up-section .content{
+    max-width: 20rem;
+  }
+  #sign-up-cta h1 {
+    font-size: 1.75rem;
+  }
+
+  #sign-up-cta h2 {
+    font-size: 1.5rem;
+  }
+}
+
 /* Features Section */
 #features-section {
   display: flex;
@@ -382,7 +395,7 @@ header .has-icon {
   }
 
   #filters-section .content {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   #filters-section .content h2 {
