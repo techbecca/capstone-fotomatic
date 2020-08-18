@@ -439,7 +439,7 @@ header .has-icon {
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
-
+  max-width: 70%;
 }
 
 #quotes-section .quote-citation {
@@ -448,9 +448,6 @@ header .has-icon {
 }
 
 @media only screen and (max-width: 992px) {
-  #quotes-section .content {
-    padding: 5rem;
-  }
   #quotes-section .quote {
     text-align: left;
   }
@@ -467,6 +464,7 @@ header .has-icon {
     line-height: 1.4;
     text-align: center;
     margin: 0 auto;
+    max-width: 90%;
   }
 
   #quotes-section .quote-citation {
