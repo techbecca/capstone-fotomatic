@@ -459,11 +459,14 @@ header .has-icon {
 @media only screen and (max-width: 760px) {
   #quotes-section .content {
     padding: 1.875rem .625rem;
+    flex-wrap: wrap;
   }
 
   #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
+    text-align: center;
+    margin: 0 auto;
   }
 
   #quotes-section .quote-citation {
