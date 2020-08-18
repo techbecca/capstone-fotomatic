@@ -121,6 +121,8 @@ header .has-icon {
 
   header .content {
     padding: .5rem 0;
+    height: 2.5625rem;
+    box-sizing: border-box;
   }
 
   header .mobile ul {
@@ -245,6 +247,19 @@ header .has-icon {
 
   #sign-up-cta h2 {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #sign-up-section .content{
+    max-width: 20rem;
+  }
+  #sign-up-cta h1 {
+    font-size: 1.75rem;
+  }
+
+  #sign-up-cta h2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -380,7 +395,7 @@ header .has-icon {
   }
 
   #filters-section .content {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   #filters-section .content h2 {
@@ -424,7 +439,7 @@ header .has-icon {
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
-
+  max-width: 70%;
 }
 
 #quotes-section .quote-citation {
@@ -433,25 +448,26 @@ header .has-icon {
 }
 
 @media only screen and (max-width: 992px) {
-  #quotes-section .content {
-    padding: 5rem;
-  }
   #quotes-section .quote {
     text-align: left;
   }
 }
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
+    flex-wrap: wrap;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90%;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
